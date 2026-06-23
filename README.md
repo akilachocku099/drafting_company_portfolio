@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# 📐 Laxman Drafting Company | Professional Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> 🚀 **Live Production Deployment:** Explore the interactive portfolio live at [laxmandraftingcompany.netlify.app](https://laxmandraftingcompany.netlify.app/)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🛠️ About The Project
 
-### `npm start`
+Welcome to the digital engineering portfolio for **Laxman Drafting Company**. This responsive, single-page web application showcases precise engineering layouts, modern architectural concepts, and interactive technical blueprints built directly inside a clean, user-focused digital interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ✨ Key Features
+* **Interactive Blueprints & Schematics:** Features a dedicated, dynamic `ElectricalDiagram.jsx` engine built to display complex grid components cleanly.
+* **Responsive Grid Engineering:** Fully cross-browser optimized layout ensuring high-definition image blueprints look sharp on smartphones, tablets, and 4K desktop screens.
+* **Optimized Build Routing:** Pre-configured with a custom `public/_redirects` routing asset to ensure seamless view navigation fallback handling on Netlify production hosts.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 💻 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **Core Engine:** React.js (Component-driven architecture)
+* **Styling & Assets:** Modular CSS3, Responsive Layout Grids, Custom Technical Component Schematics
+* **Deployment System:** Automated continuous integration via Netlify
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📦 Project Blueprint (Directory Structure)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```text
+laxman-portfolio/
+├── public/
+│   ├── _redirects             # Production server routing configuration
+│   └── index.html             # Application baseline wrapper
+└── src/
+    ├── ElectricalDiagram.jsx  # Interactive engineering schematic engine
+    ├── navbar.js              # Header dynamic control system
+    ├── about.js               # Corporate experience profiles
+    ├── project.js             # Project layout dynamic registry
+    ├── contact.js             # Client inquiry pipeline system
+    ├── App.js                 # Central component assembly unit
+    └── App.css                # Visual style properties definitions
