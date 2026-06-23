@@ -1,23 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from "./navbar";
+import About from "./about";
+import Skills from "./skills";
+import Project from "./project";
+import Experience from "./experience";
+import Contact from "./contact";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      
+      {/* Target sections wrapped with IDs so your Navbar links can slide to them */}
+      <section id="about">
+        <About />
+      </section>
+
+      <section id="skills">
+        <Skills />
+      </section>
+
+      <section id="projects">
+        <Project />
+      </section>
+
+      <section id="experience">
+        <Experience />
+      </section>
+
+      <section id="contact">
+        <Contact />
+      </section>
+
     </div>
   );
 }
